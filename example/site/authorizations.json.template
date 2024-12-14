@@ -1,0 +1,23 @@
+[ { "comment": "Any object containing one of more 'comment' properites is ignored.",
+    "comment": "To use one of the settings below, remove the",
+    "comment": "'comment' line and fill in 'clientId' and 'redirectUri'."
+  },
+  { "comment": "Remove this line to enable.",
+    "name": "mastodon.social",
+    "authorizationUri": "https://mastodon.social/oauth/authorize",
+    "tokenUri": "https://mastodon.social/oauth/token",
+    "apiUri": "https://mastodon.social/api/v1/",
+    "clientId": "<FILL IN HERE>",
+    "redirectUri": "<FILL IN HERE>",
+    "scopes": {"read":"read","write":"write","follow":"follow","push":"push"}
+  },
+  { "comment": "Remove this line to enable.",
+    "name": "develop.gab.com",
+    "authorizationUri": "https://develop.gab.com/oauth/authorize",
+    "tokenUri": "https://develop.gab.com/oauth/token",
+    "apiUri": "https://develop.gab.com/api/v1/",
+    "clientId": "<FILL IN HERE>",
+    "redirectUri": "<FILL IN HERE>",
+    "scopes": {"read":"read","write":"write","follow":"follow","push":"push"}
+  }
+]
